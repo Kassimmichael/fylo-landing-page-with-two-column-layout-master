@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 1440px;
+  /* background-color: hsl(240, 75%, 98%); */
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  margin: 3rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul li {
+  padding-left: 5rem;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: hsl(238, 22%, 44%);
+}
+
+main .main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 4rem;
+}
+
+main .files {
+  margin-bottom: 9rem;
+}
+
+.files .left-side h1 {
+  color: hsl(243, 87%, 12%);
+}
+
+main .right-side img {
+  width: 100%;
+}
+
+main .main .left-side h1 {
+  font-size: 2.2rem;
+  padding-bottom: 2rem;
+  line-height: 1.4;
+}
+
+main .main .left-side p {
+  line-height: 1.5;
+}
+
+.files .left-side p {
+  padding-bottom: 2rem;
+  color: hsl(243, 87%, 12%);
+}
+
+.main .left-side .form input {
+  padding: .6rem 4rem .6rem .6rem;
+  border: 1px solid hsl(238, 22%, 44%);
+  border-radius: 3px;
+}
+
+.main .left-side button {
+  background-color: hsl(224, 93%, 58%);
+  padding: 0.65rem 3.5rem;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.productive {
+  background-image: url(./images/bg-curve-desktop.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.productive h1, p {
+  color: hsl(243, 87%, 12%);
+}
+
+.productive .left-side p {
+  padding-bottom: 1rem;
+}
+
+.productive .left-side .click {
+  color: hsl(170, 45%, 43%);
+  border-bottom: 1px solid hsl(170, 45%, 43%);
+  display: inline-block;
+  padding-bottom: 0;
+  margin-bottom: 3rem;
+} 
+
+.productive .left-side .click p {
+  color: hsl(170, 45%, 43%);
+}
+
+.productive .left-side .click span img {
+  transform: translateY(3px);
+}
+
+.productive .left-side .testimonial {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px;
+  margin-bottom: 6rem;
+}
+
+.productive .left-side .testimonial i img {
+  padding-bottom: .7rem;
+}
+
+.productive .left-side .testimonial p {
+  line-height: 1.6;
+}
+
+.productive .left-side .testimonial .profile {
+  display: flex; 
+  align-items: center;
+}
+
+.productive .left-side .profile .kyle {
+  padding-right: 1rem;
+}
+
+.productive .left-side .profile .name h3 {
+  color: hsl(243, 87%, 12%);
+  padding-bottom: 0.5rem;
+}
+
+.productive .testimonial .profile img {
+  border-radius: 50%;
+}
+
+.productive .right-side img {
+  padding-left: 9rem;
+}
+
+.access {
+  background-color: hsl(238, 22%, 44%);
+}
+
+.access .left-side p {
+  color: #fff;
+}
+
+.access .left-side h1 {
+  color: #fff;
+}
+
+.access .right-side input {
+  display: block;
+  padding: 0.7rem 12rem .7rem 1.5rem;
+  margin-bottom: .7rem;
+  border-radius: 3px;
+  border: none;
+}
+/* 
+.access .right-side input:checked {
+  border: none;
+} */
+
+.access .right-side button {
+  padding: .6rem 2.5rem;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  background-color: hsl(224, 93%, 58%);
+  cursor: pointer;
+}
+
+footer {
+  background-color: hsl(243, 87%, 12%);
+  padding: 6rem 4rem;
+  color: #fff;
+}
+
+footer .logo-2 img {
+  padding-bottom: 1rem;
+}
+
+.footer-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer-2 .phone {
+  padding-bottom: 0.8rem;
+}
+
+footer .footer-2 .phone span {
+  padding-left: 0.7rem;
+}
+
+footer .footer-2 .email span {
+  padding-left: 0.5rem;
+}
+
+footer .footer-2 nav ul li {
+  list-style: none;
+  padding-bottom: 1rem;
+}
+
+footer .footer-2 nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer .footer-2 .socials ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-right: 4rem;
+}
+
+footer .footer-2 .socials ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+
+
+
+
