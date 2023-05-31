@@ -175,10 +175,6 @@ main .main .left-side p {
   border-radius: 3px;
   border: none;
 }
-/* 
-.access .right-side input:checked {
-  border: none;
-} */
 
 .access .right-side button {
   padding: .6rem 2.5rem;
@@ -221,6 +217,10 @@ footer .footer-2 nav ul li {
   padding-bottom: 1rem;
 }
 
+footer .footer-2 nav ul li a:hover {
+  color: hsl(238, 22%, 44%);
+}
+
 footer .footer-2 nav ul li a {
   text-decoration: none;
   color: #fff;
@@ -236,6 +236,21 @@ footer .footer-2 .socials ul {
 footer .footer-2 .socials ul li {
   text-decoration: none;
   list-style: none;
+  border: 1px solid hsl(170, 45%, 43%);
+  border-radius: 50px;
+  padding: 0.3rem .5rem;
+}
+
+footer .footer-2 .socials ul li a ion-icon {
+  color: #fff;
+}
+
+footer .footer-2 .socials ul li :hover {
+  color: hsl(224, 93%, 58%);
+}
+
+@media screen and (min-width: 375px) {
+  
 }
 
 
