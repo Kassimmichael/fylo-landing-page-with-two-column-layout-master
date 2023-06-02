@@ -261,6 +261,16 @@ footer .footer-2 .socials ul li :hover {
   color: hsl(224, 93%, 58%);
 }
 
+@media screen and (max-width: 700px) {
+  .files .right-side img {
+    width: 100%;
+  }
+
+  .files h1 {
+    font-size: 30px !important;
+  }
+}
+
 @media screen and (max-width: 400px) {
   section {
     width: 100%;
@@ -279,7 +289,7 @@ footer .footer-2 .socials ul li :hover {
   }
 
   .files .left-side h1 {
-    font-size: 20px;
+    font-size: 18px !important;
     background-color: red;
   }
 
